@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+input{
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+button{
+height: 30px;
+margin: 10px;
+width: auto;
+border: none;
+background-color: red;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}
